@@ -5,6 +5,7 @@
 class Solution {
 public:
     int hammingDistance(int x, int y) {
+        
         vector<int> xBin = convertToBinary(x);
         vector<int> yBin = convertToBinary(y);
         

@@ -1,5 +1,5 @@
-# Hamming-Distance
+# LeetCode Exercises
 
-https://leetcode.com/problems/hamming-distance/
+https://leetcode.com/
 
-The Hamming distance between two integers is the number of positions at which the corresponding bits are different.
+A repository for completed LeetCode Problems.

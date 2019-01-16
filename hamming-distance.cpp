@@ -1,3 +1,7 @@
+// https://leetcode.com/problems/hamming-distance/
+//
+// Program calculates the Hamming Distance between two input integers.
+
 class Solution {
 public:
     int hammingDistance(int x, int y) {

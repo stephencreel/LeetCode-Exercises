@@ -2,6 +2,9 @@
 https://leetcode.com/problems/hamming-distance/
 
 Program calculates the Hamming Distance between two input integers.
+
+Runtime: 0 ms, faster than 100.00% of C++ online submissions for
+Hamming Distance. (1/25/2019)
 /*/
 
 class Solution {

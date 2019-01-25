@@ -3,6 +3,9 @@ https://leetcode.com/problems/shortest-distance-to-a-character/
 
 Program finds the shortest distance to input character for every
 character in an input string.
+
+Runtime: 8 ms, faster than 99.91% of C++ online submissions for 
+Shortest Distance to a Character. (1/25/19)
 /*/
 
 class Solution {

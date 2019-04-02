@@ -19,7 +19,7 @@ public:
             int digit = number % 10;
             number = (number - digit) / 10;
             
-            // Add Digit to Solution
+            // Append Digit to Solution
             long long temp = solution;
             temp = (temp * 10) + digit;
             

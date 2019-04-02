@@ -17,7 +17,7 @@ public:
             
             // Remove Least Significant Digit from Input and Store
             int digit = number % 10;
-            number = (number - digit) / 10;
+            number = number / 10;
             
             // Append Digit to Solution
             long long temp = solution;

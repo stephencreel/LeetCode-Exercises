@@ -13,7 +13,7 @@ public:
     bool isPalindrome(int x) {
         
         // If Input Single Digit Return True
-        if(x >= 0 && x < 9) return true;
+        if(x >= 0 && x < 10) return true;
         
         // If Input Negative Number or Divisible by 10 Return False
         if(x < 0 || x % 10 == 0) return false;

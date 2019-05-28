@@ -15,6 +15,5 @@ class Solution:
             if balance == 0:
                 solution += S[begin + 1 : i]
                 begin = i + 1
-                balance = 0
         
         return solution

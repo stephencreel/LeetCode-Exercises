@@ -9,11 +9,11 @@
 class Solution:
     def removeOuterParentheses(self, S: str) -> str:
         solution = ""
-        balance = begin = 0
+        balance = start = 0
         for i, par in enumerate(S):
             balance += 1 if par == "(" else -1
             if balance == 0:
-                solution += S[begin + 1 : i]
-                begin = i + 1
+                solution += S[start + 1 : i]
+                start = i + 1
         
         return solution
